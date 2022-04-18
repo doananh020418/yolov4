@@ -1,0 +1,51 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake
+C:/opencv_3.0/opencv/build/x64/vc14/lib/OpenCVConfig-version.cmake
+C:/opencv_3.0/opencv/build/x64/vc14/lib/OpenCVConfig.cmake
+C:/opencv_3.0/opencv/build/x64/vc14/lib/OpenCVModules-debug.cmake
+C:/opencv_3.0/opencv/build/x64/vc14/lib/OpenCVModules-release.cmake
+C:/opencv_3.0/opencv/build/x64/vc14/lib/OpenCVModules.cmake
+D:/yolov4/yolov4/darknet/CMakeFiles/3.22.0/CMakeCCompiler.cmake
+D:/yolov4/yolov4/darknet/CMakeFiles/3.22.0/CMakeCXXCompiler.cmake
+D:/yolov4/yolov4/darknet/CMakeFiles/3.22.0/CMakeRCCompiler.cmake
+D:/yolov4/yolov4/darknet/CMakeFiles/3.22.0/CMakeSystem.cmake
+D:/yolov4/yolov4/darknet/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+D:/yolov4/yolov4/darknet/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+D:/yolov4/yolov4/darknet/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+D:/yolov4/yolov4/darknet/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+D:/yolov4/yolov4/darknet/CMakeLists.txt
+D:/yolov4/yolov4/darknet/DarknetConfig.cmake.in
+D:/yolov4/yolov4/darknet/cmake/Modules/FindPThreads4W.cmake
+D:/yolov4/yolov4/darknet/cmake/Modules/FindStb.cmake
+D:/yolov4/yolov4/darknet/src/version.h.in

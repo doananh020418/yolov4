@@ -20,7 +20,7 @@ app = Flask(__name__)
 import json
 
 # load in our YOLOv4 architecture network
-network, class_names, class_colors = load_network("cfg/yolov4-custom.cfg", "data/obj.data", "/mydrive/yolov4/yolov4/training/yolov4-custom_81.weights")
+network, class_names, class_colors = load_network("cfg/yolov4-custom.cfg", "data/obj.data", "81.weights")
 width = network_width(network)
 height = network_height(network)
 
@@ -106,19 +106,25 @@ def camPreview(previewName, camID):
           pass
         
 
-@app.route('/')
-def home():
-    ret = 'hello'
-    return ret
-sc = []
-@app.route('/send_rtsp', methods=['GET', 'POST'])
-def send_rtsp():
-    link = request.args.get('rtsp_link')
-    #print(link)
-    thread = camThread('cam',link)
-    thread.start()
+# @app.route('/')
+# def home():
+#     ret = 'hello'
+#     return ret
+# sc = []
+# @app.route('/send_rtsp', methods=['GET', 'POST'])
+# def send_rtsp():
+#     link = request.args.get('rtsp_link')
+#     #print(link)
+#     thread = camThread('cam',link)
+#     thread.start()
 
-    return 'Done'
+#     return 'Done'
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5002, debug=False)
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port=5002, debug=False)
+import time
+
+frame = cv2.imread(r"D:\fire smoke dataset\Fire-Smoke-Test\Fire\1_20.jpg")
+detections, width_ratio, height_ratio = darknet_helper(frame, width, height)
+print(detections[0])
+
